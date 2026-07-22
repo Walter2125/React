@@ -1,0 +1,47 @@
+# Dependencias
+node_modules
+.pnp
+.pnp.js
+
+# Builds
+dist
+dist-ssr
+build
+*.local
+
+# Variables de entorno (los .env.example SÍ se suben)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Tests / coverage
+coverage
+.nyc_output
+
+# Caché de herramientas
+.vite
+.turbo
+.eslintcache
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

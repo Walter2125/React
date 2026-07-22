@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Estilos para el estado del juego (quién sigue o quién ganó) */
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Contenedor de cada fila del tablero */
+.board-row {
+  display: flex;
+}
+
+/* Estilos individuales para cada cuadro (botón) */
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1px;
+  margin-right: -1px;
+  cursor: pointer;
+  padding: 0;
+  color: #242424;
+}
+
+/* Efecto al pasar el cursor sobre los cuadros */
+.square:hover {
+  background: #e9ecef;
+}
+
+/* Quitar el contorno azul por defecto al hacer clic */
+.square:focus {
+  outline: none;
+  background: #ddd;
+}
